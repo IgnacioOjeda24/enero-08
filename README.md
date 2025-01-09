@@ -31,30 +31,42 @@ Este proyecto utiliza un modelo Vision Transformer (ViT) para clasificar las im�
 
    Para crear el entorno virtual en visual studio code.
 
-   ``` bash
-   python -m venv nombre_propio_de_entorno virtual
+    ``` bash
+    python -m venv nombre_propio_de_entorno virtual
 
    Ejemplo:
 
-   ``` bash
-   python -m venv proyecto_2
+    ``` bash
+    python -m venv proyecto_2
 
    Para activar el entorno virtual en visual studio code.
 
-   ``` bash
-   \nombre_propio_de_entorno virtual\Scripts\activate
+    ``` bash
+    \nombre_propio_de_entorno virtual\Scripts\activate
 
    Ejemplo:
 
+    ``` bash
+    \proyecto_2\Scripts\activate
+
+   ** NOTA:Esto se tiene que hacer antes de instalar las respectivas librerías en la terminal de visual studio code, independiente 
+   del sistema operativo**.
+
+7. Para terminar la ejecuación del entorno virtual, el usuario tiene que ejecutar el comando deactivate.
+    
+    ``` bash
+    deactivate  
+
+8. **Hardware: GPU (no obligatorio): Si usted tiene una CPU compatible, la librería PyTorch la utilizará de forma automática para acelerar la ejecución, en el caso de lo contrario el modelo funcionará exitosamente en la CPU, aunque será menos eficiente. Si no tienes una, el modelo funcionará correctamente en la CPU, aunque será más lento.**
+   
+
+
+## Para que funcione el proyecto correctamente independiente del dispositivo, primer proyecto archivo proyecto 2.1.
+
+1. **Clonar el proyecto con el siguiente comando en visual studio code:
    ``` bash
-   \proyecto_2\Scripts\activate
-
-7. **Hardware: GPU (no obligatorio): Si usted tiene una CPU compatible, la librería PyTorch la utilizará de forma automática para acelerar la ejecución, en el caso de lo contrario el modelo funcionará exitosamente en la CPU, aunque será menos eficiente. Si no tienes una, el modelo funcionará correctamente en la CPU, aunque será más lento.**
-
-
-## Para que funcione el proyecto correctamente independiente del dispositivo.
-
-1. **Clonar el proyecto con el siguiente comando en visual studio code:**
+   git clone https://github.com/IgnacioOjeda24/enero-08.git
+   
 2. **Verifica si está todo instalado, sino falta uno de ellos hay que revisar con los comandos que salieron anteriormente como las librerías, crear el entorno, activación del entorno, entre otros**.
 3. **Si el usuario desea andar el proyecto tiene que ejecutar el siguiente comando:**
    ```bash
@@ -86,7 +98,7 @@ Este proyecto utiliza un modelo Vision Transformer (ViT) para clasificar las im�
     ![u6](https://github.com/user-attachments/assets/c3a341ac-b572-4210-a6c8-9a3f13b913d8)
 
    
-10. **Si el usuario desea con el proceso poner una y en el caso no continua con n**.
+9. **Si el usuario desea con el proceso poner una y en el caso no continua con n**.
     **En el caso de sí.**
    
     ![U7](https://github.com/user-attachments/assets/a5a1f379-b11e-41bf-a518-8e93c064fc3a)
@@ -97,7 +109,7 @@ Este proyecto utiliza un modelo Vision Transformer (ViT) para clasificar las im�
     ![U8](https://github.com/user-attachments/assets/6b4fc75c-aec4-4b95-86d8-bb0f938077b4)
 
 
-11. **Así sucesivamente sigue la consulta de la imagen, esto es un ciclo, hasta que usuario determine ejecutar n en el momento que desee.**
+10. **Así sucesivamente sigue la consulta de la imagen, esto es un ciclo, hasta que usuario determine ejecutar n en el momento que desee.**
 
 # Sección sobre Transformers y Ejecución de Modelos en Local: 
 
@@ -153,28 +165,38 @@ Este proyecto implementa una aplicación de chatbot, que el usuario haga cualqui
 
    Para crear el entorno virtual en visual studio code.
 
-   ``` bash
-   python -m venv nombre_propio_de_entorno virtual
+    ``` bash
+    python -m venv nombre_propio_de_entorno virtual
 
    Ejemplo:
 
-   ``` bash
-   python -m venv env2
+    ``` bash
+    python -m venv env2
 
    Para activar el entorno virtual en visual studio code.
 
-   ``` bash
-   \nombre_propio_de_entorno virtual\Scripts\activate
+    ``` bash
+    \nombre_propio_de_entorno virtual\Scripts\activate
 
    Ejemplo:
 
+    ``` bash
+    \env2\Scripts\activate
+   
+ ##### NOTA: Esto se tiene que hacer antes de instalar las respectivas librerías en la terminal de visual studio code, independiente del sistema operativo.
+
+7. Para terminar la ejecuación del entorno virtual, el usuario tiene que ejecutar el comando deactivate.
+    
    ``` bash
-   \env2\Scripts\activate
+   deactivate  
 
 
-## Requisitos para la Ejecución.
+## Para que funcione el proyecto correctamente independiente del dispositivo, segundo proyecto se encuentra en la carpeta proyecto 2.6.
 
-1. **Clonar el proyecto con el siguiente comando independiente del sistema operativo**.
+1. **Clonar el proyecto con el siguiente comando en visual studio code:
+    ``` bash
+    git clone https://github.com/IgnacioOjeda24/enero-08.git
+    
 2. **Verifica si está todo instalado, sino falta uno de ellos hay que revisar con los comandos que salieron anteriormente como las librerías, crear el entorno, activación del entorno, entre otros**.
 3. **Si el usuario desea andar el proyecto tiene que ejecutar el siguiente comando:**
 
@@ -242,14 +264,48 @@ A continuación se mostrará el diagrama de flujo desde que el usuario ingrese e
    - `transformers`
    - `pydantic
 
-  5. **Librerías instaladas en el proyecto que se adjunta una imagen al inicio del archivo app2.py**.
+5. **Librerías instaladas en el proyecto que se adjunta una imagen al inicio del archivo app2.py**.
 
      ![U25](https://github.com/user-attachments/assets/a696db66-f7b0-4d2e-a131-b4e6638d7f69)
+6. **Antes de correr el programa, instalar los siguientes comandos:**
+
+   Para crear el entorno virtual en visual studio code.
+
+   ``` bash
+   python -m venv nombre_propio_de_entorno virtual
+
+   Ejemplo:
+
+   ``` bash
+   python -m venv parte3
+
+   Para activar el entorno virtual en visual studio code.
+
+   ``` bash
+   \nombre_propio_de_entorno virtual\Scripts\activate
+
+   Ejemplo:
+
+   ``` bash
+   \parte 3\Scripts\activate
+   
+##### NOTA: Esto se tiene que hacer antes de instalar las respectivas librerías en la terminal de visual studio code, independiente del sistema operativo.
+
+7. Para terminar la ejecuación del entorno virtual, el usuario tiene que ejecutar el comando deactivate.
+    
+   ``` bash
+   deactivate
 
 
-## Para que funcione el proyecto correctamente independiente del dispositivo.
 
-1. **Clonar el proyecto con el siguiente comando en visual studio code:**
+     
+
+## Para que funcione el proyecto correctamente independiente del dispositivo, tercer proyecto se encuentra en la carpeta proyecto 2.8.
+
+1. **Clonar el proyecto con el siguiente comando en visual studio code:
+     ``` bash
+     git clone https://github.com/IgnacioOjeda24/enero-08.git
+     
 2. **Verifica si está todo instalado, sino falta uno de ellos hay que revisar con los comandos que salieron anteriormente como las librerías, crear el entorno, activación del entorno, entre otros**.
 3. **Si el usuario desea andar el proyecto tiene que ejecutar el siguiente comando:**
    
