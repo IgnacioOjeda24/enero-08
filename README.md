@@ -3,7 +3,7 @@ Instrucción:
 
 Proyecto 1 : Utilizando un api de hugginface de un modelo LLM crea una aplicación donde el usuario pueda realizar preguntas y el modelo le responda, en el readme especifica el modelo usado y los parámetros en la petición junto con un ejemplo de uso.
 
-# Selección del modelo de Hugging Face: 
+# Selección del modelo de Hugging Face:
 
 Este proyecto utiliza un modelo Vision Transformer (ViT) para clasificar las imágenes y tener una predicción con porcentaje de los primeros 7 objetos con más probabilidad (4 decimales), se ejecuta de manera local utilizando Pytorch y los modelos preentrenados disponibles en Hugging Face.
 
